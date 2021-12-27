@@ -28,9 +28,9 @@ buat repository pada github organization kalian dengan format: `Typescript-1`
    ```
 4. Setelah semua program selesai dikerjakan, jalankan (pilih salah satu)
    ```
-   1. node run test
-   2. node test
-   3. node t
+   1. npm run test
+   2. npm test
+   3. npm t
    ```
 5. Screenshoot terminal hasil perintah nomer 4
 6. Push project ini dan hasil screenshoot ke repo yang telah dibuat pada github organization.
