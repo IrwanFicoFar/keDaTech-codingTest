@@ -1,9 +1,9 @@
-## BASIC PROGRAMMING 2 PART 2
+## TYPESCRIPT PART 1
 
 clone project ini dengan cara
 
 ```
-git clone https://github.com/FE-Sirclo/Basic-Programming2-Part2.git
+git clone https://github.com/FE-Sirclo/TypeScript-1.git
 ```
 
 `setelah clone selesai, pindah ke folder hasil clone` -> HAL INI DILAKUKAN 1x saja
@@ -16,7 +16,7 @@ npm install (untuk menginstall beberapa dependencies pembantu)
 git remote set-url origin git://new.url.here (untuk mengganti remote git repository)
 ```
 
-buat repository pada github organization kalian dengan format: `Typescript-1`
+buat repository pada github organization kalian dengan format: `TypeScript-1`
 
 ## Tata cara Pengerjaan Tugas
 
