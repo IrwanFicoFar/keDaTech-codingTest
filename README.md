@@ -1,37 +1,28 @@
-## TYPESCRIPT PART 1
+# TYPESCRIPT PART 1
 
-clone project ini dengan cara
+Tugas Alta Immersive Frontend Fundamental Programming (TypeScript #1)
 
-```
-git clone https://github.com/FE-Sirclo/TypeScript-1.git
-```
+## Tata Cara Pengerjakan Tugas
 
-`setelah clone selesai, pindah ke folder hasil clone` -> HAL INI DILAKUKAN 1x saja
-
-lalu jalankan
+1. Clone repository ini dengan cara
 
 ```
-npm i -g jest (abaikan jika sudah install jest secara global)
-npm install (untuk menginstall beberapa dependencies pembantu)
-git remote set-url origin git://new.url.here (untuk mengganti remote git repository)
+git clone https://github.com/Immersive-Frontend-Resource/TypeScript-1.git
 ```
 
-buat repository pada github organization kalian dengan format: `TypeScript-1`
+setelah itu buat repository pada github organization kalian dengan format `TypeScript-1`, lalu copy link HTTPS seperti gambar dibawah
+![repo clone](https://res.cloudinary.com/hypeotesa/image/upload/v1645518258/screenshot_hn6mmu.png)
 
-## Tata cara Pengerjaan Tugas
+lalu jalankan perintah dibawah untuk mengganti remote git repository.
 
-1. Lengkapi function yang sudah disediakan
-2. SESUAIKAN RETURN VALUE DENGAN TIPE DATA YANG DI EKSPEKTASIKAN
-3. Untuk melakukan run program setiap soal lakukan seperti contoh (sesuaikan keperluan):
-   ```
-   node src/problem1/problem1.js
-   ```
-4. Setelah semua program selesai dikerjakan, jalankan (pilih salah satu)
-   ```
-   1. npm run test
-   2. npm test
-   3. npm t
-   ```
-5. Screenshoot terminal hasil perintah nomer 4
-6. Push project ini dan hasil screenshoot ke repo yang telah dibuat pada github organization.
-7. Selamat Mencoba!!!
+```
+git remote set-url origin <paste link HTTPS yang telah di copy sebelumnya>
+```
+
+2. Jalankan perintah `npm install` untuk meng-install dependencies jest
+3. Kerjakan di masing-masing folder dan file yang sudah ditentukan sesuai dengan tugas yang diberikan.
+4. Setelah itu jalankan perintah `npm run test` di terminal untuk menjalankan unit test, lalu screenshot hasil unit test seperti dibawah dan masukkan kedalam folder `Screenshot`
+   ![screenshot](https://res.cloudinary.com/hypeotesa/image/upload/v1645628766/Result_dun5wl.png)
+
+5. Push project ini beserta tugas-tugas yang telah dikerjakan ke repo yang telah dibuat pada github organization.
+6. Selamat Mencoba!!!
