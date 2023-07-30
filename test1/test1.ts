@@ -3,7 +3,6 @@ export const urutAngkaDariTerbesar = (num: number[]): number[] => {
 
   for (let i = 0; i < numLength - 1; i++) {
     for (let j = i + 1; j < numLength; j++) {
-      console.log(num[i], num[j]);
       if (num[i] < num[j]) {
         let temp = num[i];
         num[i] = num[j];
