@@ -15,4 +15,4 @@ export const urutAngkaDariTerbesar = (num: number[]): number[] => {
   return num;
 };
 
-// console.log(urutAngkaDariTerbesar([1, 2, 4, 3, 5, 3, 2, 1]));
+console.log(urutAngkaDariTerbesar([1, 2, 4, 3, 5, 3, 2, 1]));
